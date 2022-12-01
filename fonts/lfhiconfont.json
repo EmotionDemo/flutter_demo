@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "167203",
+      "name": "地铁",
+      "font_class": "ditie",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "217235",
+      "name": "android",
+      "font_class": "android",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "560666",
+      "name": "iphone",
+      "font_class": "iphone",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}
