@@ -11,22 +11,6 @@ void main() {
 }
 
 
-//静态组件，无状态改变的
-/*class MyApp extends StatelessWidget{
-  const MyApp({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-      return const Center(
-        child: Text('你好Flutter5555',
-            textDirection: TextDirection.ltr,
-            style: TextStyle(color: Colors.red, fontSize: 35)),
-      );
-  }
-
-}*/
-
-
 class MyApp extends StatelessWidget {
   const MyApp({Key key}) : super(key: key);
 
