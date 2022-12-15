@@ -103,25 +103,26 @@ class HomePage extends StatelessWidget {
             Expanded(
               flex: 2,
               child: SizedBox(
-                height: 180,
+                height: 280,
                child: Image.network(
                   "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F5b4f599eac88b90af2d9e03f45a042b2551c5160.jpg&refer=http%3A%2F%2Fi2.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1673430908&t=c985a9ec58d08e6865a8b16ff4c55980",
                   fit: BoxFit.cover,
                 ),
               ),
             ),
+            const SizedBox(height: 5,),
             Expanded(
               flex: 1,
               child:SizedBox(
-                height: 180,
+                height: 280,
                 child: Column(
                 children: [
-                  Expanded(flex: 1,child: Image.network(
+                  Expanded(flex: 2,child: Image.network(
                     "https://img1.baidu.com/it/u=3408050783,412218639&fm=253&fmt=auto&app=138&f=JPEG?w=877&h=500",
                     fit: BoxFit.cover,
                   ),),
-
-                  Expanded(flex: 1,child: Image.network(
+                  const SizedBox(height: 5,),
+                  Expanded(flex: 2,child: Image.network(
                     "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp7.itc.cn%2Fimages01%2F20200619%2Fa605560a1af04a37a16469114a0930a9.jpeg&refer=http%3A%2F%2Fp7.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1673431415&t=6ab1443580bbfd3e76a1dd5e12a67361",
                     fit: BoxFit.cover,
                   ),),
