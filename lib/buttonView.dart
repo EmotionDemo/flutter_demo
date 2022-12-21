@@ -141,12 +141,14 @@ class HomePage extends StatelessWidget {
                 child: ElevatedButton.icon(
                   onPressed: () {},
                   icon: const Icon(Icons.favorite),
-                  label: const Text('爱心发射！ biu~ biu~ biu~'),
+                  label: const Text('爱'),
                   style: ButtonStyle(
-                      backgroundColor: const MaterialStatePropertyAll(Colors.blue),
-                      foregroundColor: const MaterialStatePropertyAll(Colors.white),
-                      shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)))),
+                      backgroundColor:
+                          const MaterialStatePropertyAll(Colors.blue),
+                      foregroundColor:
+                          const MaterialStatePropertyAll(Colors.white),
+                      shape: MaterialStateProperty.all(
+                          const CircleBorder(side: BorderSide(width: 2,color: Colors.yellow)))),
                 ),
               ),
             )
